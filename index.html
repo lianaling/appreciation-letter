@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thanks!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icon -->
+    <link
+      rel="icon"
+      href="https://i.ibb.co/c39rMG9/Thank-You.png"
+      type="image/x-icon"
+    />
+    <!-- TailwindCSS -->
+    <link href="/dist/output.css" rel="stylesheet" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      background-color: white;
+      /* background-image: url('https://i.ibb.co/Pt8FkJc/old-paper-texturejpg.jpg');
+      background-size: cover; */
+    "
+    class="scrollbar scrollbar-none"
+  >
+    <div
+      id="splash"
+      class="flex flex-col gap-5 w-screen h-screen justify-center items-center bg-theme font-display"
+    >
+      <p class="text-[5vw] text-white">To: Teacher Prema</p>
+      <button
+        type="button"
+        class="rounded-lg w-28 h-12 bg-secondary hover:bg-[#c58e96]"
+        onclick="scrollToPostSplash()"
+      >
+        <span class="text-3xl text-theme font-italic">Open</span>
+      </button>
+    </div>
+
+    <div
+      id="blank"
+      class="w-screen h-screen"
+      style="background-image: url(img/polka-dots.jpg)"
+    ></div>
+
+    <div id="postSplash">
+      <!-- Two Col Grid -->
+      <div class="grid grid-cols-2 px-16 pt-16 pb-10 h-screen gap-10">
+        <div id="leftCol" class="flex flex-col font-display relative">
+          <p class="text-9xl">
+            <span class="text-theme">T</span>hanks a
+            <span class="text-theme">M</span>illion
+          </p>
+          <p class="font-mono text-subtitle">12th May 2022</p>
+          <img
+            class="w-[20rem] absolute bottom-0"
+            src="img/deco-drawing.png"
+            alt="deco-drawing"
+            border="0"
+          />
+        </div>
+
+        <div
+          id="rightCol"
+          class="text-xl overflow-hidden overflow-y-auto scrollbar-none font-body relative"
+        >
+          <div
+            id="content"
+            class="flex flex-col gap-[4rem] absolute top-[20rem]"
+          >
+            <p
+              id="quote"
+              class="font-italic text-subtitle bg-[#fafafa] p-5 rounded-lg"
+            >
+              Two roads diverged in a wood, and I— <br />
+              I took the one less traveled by, <br />
+              And that has made all the difference. <br /><br />
+              —Robert Frost, "The Road Not Taken"
+            </p>
+            <!-- Letter Body -->
+            <p>
+              Quisque ut ante ut nulla consequat egestas id in eros. Proin
+              consequat lacinia sem, eget volutpat felis fringilla ut. Donec
+              volutpat fringilla dictum. Ut quis magna in enim maximus maximus.
+              Nulla facilisi. Duis ultricies tincidunt diam, nec vestibulum
+              lectus imperdiet in. Cras non auctor libero. Quisque vitae
+              imperdiet sem. Donec egestas arcu nisi, in tincidunt ligula
+              interdum vitae. Aliquam a efficitur justo. Vivamus consequat,
+              purus ac commodo suscipit, mauris diam commodo erat, eget
+              tincidunt nibh ante vitae dolor. Donec et tristique risus, nec
+              aliquet sapien. Vestibulum accumsan turpis eget odio eleifend,
+              quis dignissim purus egestas. Donec vel fermentum quam. Etiam
+              neque est, gravida a ultrices at, ornare eu massa. Duis efficitur
+              ante rutrum velit auctor varius.
+            </p>
+            <p>
+              Quisque a laoreet nisi, sit amet eleifend eros. Fusce porttitor
+              accumsan mi, sit amet semper massa bibendum mattis. Fusce
+              ullamcorper erat quis felis pretium, vitae luctus erat gravida.
+              Suspendisse a turpis vitae nulla maximus sagittis non et metus.
+              Nulla facilisi. Fusce vel diam ultrices, vulputate sem at, dictum
+              felis. Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Sed vulputate rhoncus aliquet.
+              Praesent id turpis mi. Integer venenatis accumsan tristique.
+              Nullam quis lacus nec eros tristique fermentum eu sed ex. Nam
+              volutpat leo vitae nibh molestie, in elementum massa gravida.
+              Mauris nulla enim, fermentum a massa a, aliquam pharetra leo. Sed
+              efficitur augue quis nibh luctus ultrices.
+            </p>
+            <p>
+              Ut congue at dolor vitae scelerisque. Nulla tellus ipsum, maximus
+              sit amet laoreet nec, aliquam a lectus. Morbi hendrerit sit amet
+              enim eget mollis. Suspendisse rutrum, nunc sit amet ultricies
+              venenatis, sem quam dignissim purus, id rhoncus est velit non
+              eros. Quisque sollicitudin porttitor est, et fringilla orci
+              iaculis quis. Class aptent taciti sociosqu ad litora torquent per
+              conubia nostra, per inceptos himenaeos. Sed vestibulum dictum
+              tellus, non imperdiet sapien fringilla et. Aliquam erat volutpat.
+              Nam eget nunc ligula. Proin ligula nisl, vestibulum sit amet porta
+              pharetra, elementum eu enim. Sed sollicitudin tincidunt
+              scelerisque. In dolor libero, convallis at nibh et, tempor
+              faucibus sem. Morbi hendrerit mauris vel nunc commodo, nec
+              volutpat libero malesuada.
+            </p>
+            <p id="signature" class="text-right">
+              Your Student, <br />
+              <span class="font-handwritten text-4xl">Liana Ling</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Animation -->
+    <script>
+      function scrollToPostSplash() {
+        var scrollDiv = document.getElementById("postSplash").offsetTop;
+        window.scrollTo({ top: scrollDiv, behavior: "smooth" });
+        // document.getElementById("splash").style.display = "none";
+        // document.getElementById("blank").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
